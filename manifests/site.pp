@@ -58,11 +58,8 @@ node default {
   include hub
   include nginx
 
-  # productivity modules
+  # custom modules
   include alfred
-
-  # hacking modules
-  include github_for_mac
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

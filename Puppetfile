@@ -60,5 +60,4 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "alfred",         "1.1.8"
-github "github_for_mac", "1.0.2"
+github "alfred",      "1.1.8"
