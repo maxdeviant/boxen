@@ -60,8 +60,14 @@ node default {
 
   # productivity
   include alfred
+  include keepassx
+  include spotify
 
   # hacking
+  include sublime_text
+  sublime_text::package { 'Emmet':
+    source => 'sergeche/emmet-sublime'
+  }
   include github_for_mac
 
   # fail if FDE is not enabled

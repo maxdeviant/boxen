@@ -62,3 +62,6 @@ github "xquartz",     "1.1.1"
 
 github "alfred",         "1.1.8"
 github "github_for_mac", "1.0.2"
+github "keepassx",       "1.0.0"
+github "sublime_text",   "1.0.0"
+github "spotify",        "1.0.1"
